@@ -1,0 +1,2 @@
+AZURE_OPENAI_URI=https://YOUR_ENDPOINT_NAME.openai.azure.com/openai/deployments/gpt-4o
+AZURE_OPENAI_API_KEY=API_KEY
