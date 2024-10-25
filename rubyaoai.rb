@@ -13,7 +13,7 @@ end
 # チャットリクエストを送信
 response = OpenAI::Client.new().chat(
   parameters: {
-    messages: [{ role: "user", content: "Azure OpenAI Service の概要を説明して"}], # メッセージを設定
+    messages: [{ role: "user", content: "Azure OpenAI Service の概要を説明する文章をMarkdown形式で作成して"}], # メッセージを設定
     temperature: 0.7, # 応答の多様性を設定
   }
 )
